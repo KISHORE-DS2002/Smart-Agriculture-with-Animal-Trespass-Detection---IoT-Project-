@@ -6,19 +6,19 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 #include <Arduino_JSON.h>
-#define WIFI_SSID "DSK"
-#define WIFI_PASSWORD "DSK@2002"
+#define WIFI_SSID "wifi name"
+#define WIFI_PASSWORD "wifi password"
 #define SMTP_server "smtp.gmail.com"
 #define SMTP_Port 465
-#define sender_email "kandippapesanum2002@gmail.com"
-#define sender_password "kandippa@2021"
-#define Recipient_email "kishoresrinivasan2002@gmail.com"
+#define sender_email "include ur sender mail"
+#define sender_password "sender mail password"
+#define Recipient_email "receivermail"
 SoftwareSerial mySerial (D1,D2);//D2-Rx D1-Tx
 SMTPSession smtp;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Your Domain name with URL path or IP address with path
-String openWeatherMapApiKey = "6a2b87586e510bcb466121a95edf15e0";
+String openWeatherMapApiKey = "choose ur own apikey";
 // Replace with your country code and city
 String city = "Chennai";
 String countryCode = "IN";
