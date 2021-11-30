@@ -1,5 +1,0 @@
-ph detection - potentiometer
-Sunlight Intensity Detection - Photoresistor
-Temperature - Temperature Sensor
-moisture - potentiometer/ soil moisture sensor
-Animal Ivasion
